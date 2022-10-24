@@ -1,2 +1,2 @@
 # ESE-346-Switching-Element-Problem
-A switching element with a 10 random inputs to 3 outputs
+This is a program to produce a discrete event simulation of a switching element with 10 inputs and 3 outputs. In a given slot the independent probability that a packet arrives in a slot is p and the probability that a slot is empty is (1– p). With p being .05 increasing in intervals of .05 till 1. For a switching element, if three or fewer packets arrive at some inputs, they are forwarded to the switching element outputs without a loss. If more than three packets arrive at the inputs of the switching element, only three packets are randomly chosen to be forwarded to the switching element outputs and the remaining ones are discarded.  
